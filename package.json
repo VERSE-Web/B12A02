@@ -1,0 +1,12 @@
+{
+  "name": "2nd-assignment",
+  "version": "1.1.2",
+  "description": "My 2nd assignment for @ProgramingHero1",
+  "license": "ISC",
+  "author": "Mehran Ul Islam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hello?"
+  }
+}

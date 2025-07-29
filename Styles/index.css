@@ -1,0 +1,779 @@
+body{
+    background-color: azure;
+}
+.orange{
+    color: #FF7A00;
+}
+.black{
+    color: black;
+}
+.Navigation-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0 20px;
+}
+
+.nav-bar-content-1 {
+    height: 50px;
+    width: 100px;
+}
+
+.nav-bar-content-2 {
+    margin-left: auto;         /* pushes this group to the right */
+    display: flex;             /* keeps a tags in a row */
+    gap: 20px;                 /* spacing between links */
+    align-items: center;       /* vertical centering */
+    margin-top: 5px;
+}
+
+.nav-bar-content-2 a {
+    text-decoration: none;
+    display: flex;             /* allow img + h3 side-by-side in cart */
+    align-items: center;
+    gap: 5px;
+}
+.redirect-1{
+    color: black;
+    font-weight: bold;
+}
+.redirect-2, .redirect-3{
+    color: rgba(0, 0, 0, 0.5);
+}
+.redirect-4{
+    font-weight: lighter;
+    color: black;
+}
+.redirect-4 img {
+    height: 20px;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+.hero-text .black {
+    color: black;
+}
+
+.hero-text .orange {
+    color: #FF7A00; /* Orange from Figma image */
+}
+
+.hero-text p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+.hero-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+.hero-img img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+.section-1{
+    text-align: center;
+}
+.micro-section-1 .orange{
+    color: #FF7A00;
+}
+.micro-section-1 .black{
+    color: black;
+}
+
+.section-1-content-1{
+    font-size: 25px;
+}
+.micro-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1-content-2{
+    color: rgba(0, 0, 0, 0.6);
+    width: 50vw;
+}
+.nav-bar-content-2 p{
+    text-align: center;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.products-holder {
+    background-color: #f5f5f5;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+    width: calc(33.33% - 40px); /* 3 per row, accounting for gap */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-title {
+    font-size: 20px;
+    margin: 12px 0 4px;
+    color: #222;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.add-to-cart {
+    background-color: #FF5A1F;
+    color: white;
+    padding: 12px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #e14a12;
+}
+.header-of-latest-deals{
+    text-align: center;
+}
+.header-of-latest-deals h1{
+    font-size: 45px;
+}
+.lataset-deals-micro-section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.lataset-deals-micro-section-1-micro2{
+    color: rgba(0, 0, 0, 0.6);
+    width: 50vw;
+    font-size: 25px;
+}
+.flower-plants-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+.image-side {
+  position: relative;
+  width: 40%;
+}
+
+.image-side img:first-child {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.trusted-badge {
+  position: absolute;
+  top: -1%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+  z-index: 10;
+}
+
+.text-side {
+  width: 60%;
+}
+
+.text-side h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.text-side h1 span {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.text-side ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.deals {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #e9edf5;
+  border-radius: 12px;
+}
+
+.left-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.deals-content-1,
+.deals-content-3 {
+  flex: 1;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.deals-content-2 {
+  flex: 2;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.deals h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+.deals a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.deals a:hover {
+  color: #ddd;
+}
+.deals-content-1 {
+  background-image: url('./../Assets/deal-bloom.png');
+}
+.deals-content-2 {
+  background-image: url('./../Assets/deal-zabo.png');
+}
+.deals-content-3 {
+  background-image: url('./../Assets/deal-ana.png');
+}
+.newsletter-section {
+  background: url('./path-to/flowers.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.newsletter-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.newsletter-content h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: #333;
+}
+
+.newsletter-form button {
+  padding: 0 30px;
+  background-image: url('./../Assets/news-letter-bg.png');  /* Sorry i couldn't get the background image to work. */
+  color: white;
+  font-weight: 600;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #d9571d;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px 80px;
+  background-color: #ffffff;
+  color: #333;
+  gap: 40px;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-left .logo {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.footer-left p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 300px;
+}
+
+.footer-right {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  min-width: 300px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-links div p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.footer-links div p:hover {
+  text-decoration: underline;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-icons a img {
+  height: 24px;
+  transition: 0.2s ease;
+}
+
+.footer-icons a:hover img {
+  transform: scale(1.1);
+}
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-text,
+  .hero-img {
+    width: 100%;
+  }
+
+  .products-holder {
+    width: calc(50% - 20px); /* 2 per row */
+  }
+
+  .flower-plants-section {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .image-side,
+  .text-side {
+    width: 100%;
+  }
+
+  .deals {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footer {
+    padding: 40px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-right {
+    flex-direction: column;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input[type="email"],
+  .newsletter-form button {
+    width: 100%;
+  }
+}
+
+/* Phones (≤768px) */
+@media (max-width: 768px) {
+  .Navigation-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+  }
+
+  .nav-bar-content-2 {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    gap: 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .products-holder {
+    width: 100%; /* 1 per row on small screens */
+  }
+
+  .section-1-content-2,
+  .lataset-deals-micro-section-1-micro2 {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 18px;
+  }
+
+  .text-side h1,
+  .text-side h1 span {
+    font-size: 2rem;
+  }
+
+  .newsletter-section {
+    padding: 60px 15px;
+  }
+
+  .newsletter-content h2 {
+    font-size: 2.2rem;
+  }
+
+  .footer-icons {
+    justify-content: flex-start;
+  }
+}
+
+/* Small Phones (≤480px) */
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .hero-img img {
+    max-width: 100%;
+  }
+
+  .products {
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .products-holder {
+    padding: 12px;
+  }
+
+  .section-1-content-1 {
+    font-size: 20px;
+  }
+
+  .lataset-deals-micro-section-1-micro2 {
+    font-size: 16px;
+  }
+
+  .deals-content-1,
+  .deals-content-2,
+  .deals-content-3 {
+    height: 180px;
+  }
+
+  .newsletter-form input[type="email"] {
+    padding: 12px;
+    font-size: 0.95rem;
+  }
+
+  .newsletter-form button {
+    font-size: 0.95rem;
+    padding: 12px;
+  }
+
+  .footer-left .logo {
+    height: 40px;
+  }
+
+  .footer-left p {
+    font-size: 0.9rem;
+  }
+
+  .footer-links div p {
+    font-size: 0.9rem;
+  }
+
+  .footer-icons a img {
+    height: 20px;
+  }
+}
+/* ======= Responsive Adjustments for 393px Devices ======= */
+@media (max-width: 393px) {
+  .Navigation-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 16px;
+  }
+
+  .nav-bar-content-2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-left: 0;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    padding: 30px 16px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .hero-img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .section-1-content-1 {
+    font-size: 20px;
+  }
+
+  .section-1-content-2 {
+    width: 100%;
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .products {
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .products-holder {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .product-title {
+    font-size: 18px;
+  }
+
+  .product-price {
+    font-size: 16px;
+  }
+
+  .add-to-cart {
+    padding: 10px 0;
+    font-size: 15px;
+  }
+
+  .flower-plants-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .image-side,
+  .text-side {
+    width: 100%;
+  }
+
+  .trusted-badge {
+    width: 150px;
+    top: 0;
+    left: 90%;
+  }
+
+  .text-side h1,
+  .text-side h1 span {
+    font-size: 22px;
+  }
+
+  .text-side ul {
+    font-size: 14px;
+  }
+
+  .deals {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .deals-content-1,
+  .deals-content-2,
+  .deals-content-3 {
+    height: 160px;
+  }
+
+  .deals h1 {
+    font-size: 1.2rem;
+  }
+
+  .deals a {
+    font-size: 0.9rem;
+  }
+
+  .newsletter-section {
+    padding: 60px 16px;
+  }
+
+  .newsletter-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .newsletter-form input[type="email"],
+  .newsletter-form button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 14px;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 100%;
+  }
+
+  .footer-left p {
+    font-size: 0.95rem;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-links div p {
+    font-size: 0.9rem;
+  }
+
+  .footer-icons a img {
+    height: 22px;
+  }
+}
+
